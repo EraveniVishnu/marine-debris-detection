@@ -1,0 +1,12 @@
+{
+  "pythonVersion": "3.10",
+  "pythonPlatform": "Windows",
+  "venvPath": "C:\\Users\\HP\\Miniconda3\\envs",
+  "venv": "mardeb",
+  "extraPaths": [
+    "C:\\Users\\HP\\Miniconda3\\envs\\mardeb\\Lib\\site-packages"
+  ],
+  "typeCheckingMode": "off",
+  "reportMissingImports": "none",
+  "reportMissingModuleSource": "none"
+}
