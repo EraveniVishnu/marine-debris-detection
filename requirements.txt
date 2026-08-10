@@ -9,12 +9,11 @@ pillow
 # Geospatial
 rasterio
 
-# Machine learning (CPU-only for Streamlit Cloud)
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.2.2+cpu
-torchvision==0.17.2+cpu
+# Machine learning (Streamlit Cloud is CPU-only)
+torch
+torchvision
 
-# Albumentations (required by dataloader)
+# Augmentation library (required by dataloader.py)
 albumentations
 
 # Web app
