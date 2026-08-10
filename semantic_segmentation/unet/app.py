@@ -60,8 +60,8 @@ OUTPUT_CLASSES = 11
 HIDDEN_CHANNELS = 16  
 CHECKPOINT_PATH = os.path.join(BASE_DIR, "trained_models", "best_model_marine_debris.pth")
 
-# Import band statistics
-from dataloader import bands_mean, bands_std
+# Import band statistics (use lightweight module to avoid training deps like albumentations)
+from band_stats import bands_mean, bands_std
 from unet_plus_plus import UNetPlusPlus
 
 @st.cache_resource
