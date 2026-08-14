@@ -1,0 +1,20 @@
+name: mardeb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - gdal
+  - rasterio
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - tqdm
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - albumentations
+    - streamlit
